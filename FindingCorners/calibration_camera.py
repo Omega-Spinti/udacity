@@ -29,8 +29,7 @@ objp[:,:2] = np.mgrid[0:8, 0:6].T.reshape(-1, 2)  # x, y coordinates
 
 # Convert image to grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-cv2.calibrateCamera()
-cv2.undistort()
+
 # Find the chessboard corners
 ret, corners = cv2.findChessboardCorners(gray, (nx, ny), None)
 
