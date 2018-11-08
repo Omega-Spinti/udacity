@@ -9,3 +9,8 @@ STEPS:
 2. DISTORTION CORRECTION
 3. COLOR & GRADIENT THRESHOLD
 4. PERSPECTIVE TRANSFORM
+
+
+
+equation for radius of curvature becomes:
+x= mx / (my ** 2) *a*(y**2)+(mx/my)*b*y+c
