@@ -26,7 +26,6 @@ def hls_select(img, thresh=(0, 255)):
     S = hls[:, :, 2]
 
     # 2) Apply a threshold to the S channel
-    thresh = (90, 255)
     binary = np.zeros_like(S)
     binary[(S > thresh[0]) & (S <= thresh[1])] = 1
 
