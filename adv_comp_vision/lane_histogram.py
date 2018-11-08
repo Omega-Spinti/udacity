@@ -10,11 +10,11 @@ img = mpimg.imread('warped_example.jpg') / 255
 def hist(img):
     # TO-DO: Grab only the bottom half of the image
     # Lane lines are likely to be mostly vertical nearest to the car
-    bottom_half = None
+    bottom_half = img[img.shape[0] // 2:, :]
 
     # TO-DO: Sum across image pixels vertically - make sure to set `axis`
     # i.e. the highest areas of vertical lines should be larger values
-    histogram = None
+    histogram = np.sum(bottom_half, axis=0)
 
     return histogram
 
