@@ -17,12 +17,12 @@ import cv2
 
 # Read in the saved camera matrix and distortion coefficients
 # These are the arrays you calculated using cv2.calibrateCamera()
-dist_pickle = pickle.load(open("wide_dist_pickle.p", "rb"))
+dist_pickle = pickle.load(open("images/wide_dist_pickle.p", "rb"))
 mtx = dist_pickle["mtx"]
 dist = dist_pickle["dist"]
 
 # Read in an image
-img = cv2.imread('test_image2.png')
+img = cv2.imread('images/test_image2.png')
 nx = 8  # the number of inside corners in x
 ny = 6  # the number of inside corners in y
 

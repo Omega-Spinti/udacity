@@ -13,7 +13,7 @@ if ros_path in sys.path:
 import cv2
 
 # Read in an image
-image = mpimg.imread('calibration_images/signs_vehicles_xygrad.png')
+image = mpimg.imread('images/signs_vehicles_xygrad.png')
 
 # Define a function that applies Sobel x and y,
 # then computes the direction of the gradient

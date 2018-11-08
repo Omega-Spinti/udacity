@@ -12,14 +12,8 @@ if ros_path in sys.path:
 
 import cv2
 
-"""
-Note: Make sure you use the correct grayscale conversion depending on how you've read in your images. 
-Use cv2.COLOR_RGB2GRAY if you've read in an image using mpimg.imread(). 
-Use cv2.COLOR_BGR2GRAY if you've read in an image using cv2.imread().
-"""
-
 # Read in an image and grayscale it
-image = mpimg.imread('calibration_images/signs_vehicles_xygrad.png')
+image = mpimg.imread('images/signs_vehicles_xygrad.png')
 
 
 # Define a function that applies Sobel x or y,

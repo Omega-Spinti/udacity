@@ -13,7 +13,7 @@ if ros_path in sys.path:
 import cv2
 
 # Read in an image, you can also try test1.jpg or test4.jpg
-image = mpimg.imread('calibration_images/colorspace_test_images/test6.jpg')
+image = mpimg.imread('images/colorspace_test_images/test6.jpg')
 
 # Define a function that thresholds the S-channel of HLS
 # Use exclusive lower bound (>) and inclusive upper (<=)

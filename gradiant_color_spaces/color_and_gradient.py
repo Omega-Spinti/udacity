@@ -12,7 +12,7 @@ if ros_path in sys.path:
 
 import cv2
 
-image = mpimg.imread('calibration_images/bridge_shadow.jpg')
+image = mpimg.imread('images/bridge_shadow.jpg')
 
 
 # Edit this function to create your own pipeline.

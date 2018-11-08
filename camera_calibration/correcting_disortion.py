@@ -15,13 +15,13 @@ import cv2
 
 
 # Read in the saved objpoints and imgpoints
-picke_path = './pickle/'
+picke_path = './images/'
 dist_pickle = pickle.load( open( picke_path+"wide_dist_pickle.p", "rb" ) )
 objpoints = dist_pickle["objpoints"]
 imgpoints = dist_pickle["imgpoints"]
 
 # Read in an image
-path = './img/'
+path = './images/'
 img = cv2.imread(path+'test_image.png')
 
 # TODO: Write a function that takes an image, object points, and image points

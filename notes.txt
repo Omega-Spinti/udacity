@@ -1,0 +1,11 @@
+
+Note: Make sure you use the correct grayscale conversion depending on how you've read in your images.
+Use cv2.COLOR_RGB2GRAY if you've read in an image using mpimg.imread().
+Use cv2.COLOR_BGR2GRAY if you've read in an image using cv2.imread().
+
+
+STEPS:
+1. CAMERA CALIBRATION
+2. DISTORTION CORRECTION
+3. COLOR & GRADIENT THRESHOLD
+4. PERSPECTIVE TRANSFORM

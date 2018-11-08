@@ -17,7 +17,7 @@ import cv2
 nx = 8
 ny = 6
 
-img = mpimg.imread("calibration_images/calibration_test.png")
+img = mpimg.imread("images/calibration_test.png")
 plt.imshow(img)
 
 objpoints = []  # 3D points i nreal world space
