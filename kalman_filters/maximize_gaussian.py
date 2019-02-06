@@ -38,3 +38,5 @@ for n in range(len(measurements)):
     [mu, sig] = predict(mu, sig, motion[n], motion_sig)
     print('predict: ', [mu, sig])
 
+# Kalman Filters
+# States separated in 2 : Observables & hidden variables
